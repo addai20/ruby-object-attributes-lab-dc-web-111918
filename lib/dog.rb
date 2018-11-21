@@ -6,15 +6,15 @@ class Dog
   end
   
   def name(name)
-    puts @name
+    @name
   end
   
   def breed=(breed) 
     @breed = breed
   end
   
-  def breed()
-    puts Dog.breed
+  def breed(breed)
+    @breed
   end
   
   
